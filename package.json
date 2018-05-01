@@ -1,0 +1,25 @@
+{
+  "name": "litelogger",
+  "version": "1.0.0",
+  "description": "Simple logger that provides helpful indicators for errors and debugging.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingLagalot/litelogger.git"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "debug",
+    "logs"
+  ],
+  "author": "Nathaniel Heitsch <naheitsch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KingLagalot/litelogger/issues"
+  },
+  "homepage": "https://github.com/KingLagalot/litelogger#readme"
+}
