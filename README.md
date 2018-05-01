@@ -1,5 +1,5 @@
 # litelogger
-Simple logger for Node.js that's easy on the eyes ;)
+Simple and colorful logger that's easy on the eyes ;)
 
 ## Usage
 Require at the top of your file:
