@@ -3,10 +3,14 @@ Simple logger for Node.js that's easy on the eyes ;)
 
 ## Usage
 Require at the top of your file:
+
 `const llog = require('litelogger').init('FileName', true);`
+
 Arguments for `.init()`:
 * Name of file that will show up on all log messages.
 * Boolean: would you like a timestamp on your log messages
+
+![alt text](https://github.com/KingLagalot/litelogger/raw/master/example.png "LiteLogger Example")
 
 There are four types of messages:
 ```
