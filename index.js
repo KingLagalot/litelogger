@@ -4,7 +4,10 @@
         return this;
     };
     exports.make = function(output, message, flag, color){
-        var flags = '['+this.name+']';
+        var flags = '';
+        if(this.name != null){
+          var flags = '['+this.name+']';
+        }
         if(this.timestamp){
             flags = '['+new Date().toLocaleTimeString('en-US', { hour12: false })+']'+flags;
         }

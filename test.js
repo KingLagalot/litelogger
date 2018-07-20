@@ -1,4 +1,4 @@
-var llog = require('./index').init('testclass');
+var llog = require('./index').init(null, true);
 
 llog.warning('This is a warning');
 llog.debug('This is a debug message!');
