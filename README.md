@@ -7,7 +7,7 @@ Require at the top of your file:
 `const llog = require('litelogger').init('FileName', true);`
 
 Arguments for `.init()`:
-* Name of file that will show up on all log messages.
+* Name of file that will show up on all log messages. Can be null if one is not desired
 * Boolean: would you like a timestamp on your log messages
 
 ![alt text](https://github.com/KingLagalot/litelogger/raw/master/example.png "LiteLogger Example")
@@ -30,3 +30,7 @@ Output:
    error - [testclass] Something really bad just happened :(
    info  - [testclass][I'm the flag] You can also add a flag
 ```
+
+## Versions
+# 1.0.1
+* Filename can now be passed as null and will not appear
