@@ -1,6 +1,6 @@
 {
   "name": "@naheitsch/litelogger",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "Simple logger that provides helpful indicators for errors and debugging.",
   "main": "index.js",
   "scripts": {
