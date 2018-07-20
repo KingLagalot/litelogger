@@ -32,5 +32,5 @@ Output:
 ```
 
 ## Versions
-# 1.0.1
+### 1.0.1
 * Filename can now be passed as null and will not appear
